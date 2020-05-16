@@ -1,0 +1,17 @@
+/*заголовки і розмітки #212121
+/*актив #2196F3
+/* текст опису #757575
+/* футер #FFFFFF
+*/
+body {
+  background-color: #e5e5e5;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+}
