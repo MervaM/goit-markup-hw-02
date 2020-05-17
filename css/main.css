@@ -1,0 +1,51 @@
+/*заголовки і розмітки #212121
+/*актив #2196F3
+/* текст опису #757575
+/* футер #FFFFFF
+*/
+
+/*hero*/
+
+.hero-title {
+  color: #ffffff;
+}
+
+.button-order {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/*section*/
+
+.section-title {
+  color: #212121;
+}
+
+/*feature list*/
+
+.title {
+  color: #212121;
+}
+
+.title-picture:hover,
+.title-picture:focus {
+  color: #2196f3;
+}
+
+/*work*/
+
+.work-title {
+  color: #ffffff;
+}
+
+.media-title:hover,
+.media-title:focus {
+  color: #2196f3;
+}
+
+/*постійні*/
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
