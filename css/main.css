@@ -66,6 +66,12 @@
   text-align: center;
 }
 
+/*team*/
+
+.team-section {
+  background: #f5f4fa;
+}
+
 .team-list,
 .team-title {
   color: #212121;
