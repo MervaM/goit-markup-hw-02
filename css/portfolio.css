@@ -1,0 +1,60 @@
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.button:hover,
+button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.accent:hover,
+.accent:focus {
+  color: #2196f3;
+}
+
+/*projects*/
+
+.section-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+}
+
+.projects-list {
+  list-style: none;
+}
+
+.projects-list,
+.projects-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.projects-list,
+.projects-text {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 9;
+}
+
+.projects-list,
+.projects-description {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.6;
+}

@@ -8,6 +8,10 @@
 
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
 }
 
 .button-order {
@@ -19,23 +23,63 @@
 
 .section-title {
   color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
 }
 
 /*feature list*/
 
-.title {
+.feature-list .title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.feature-list,
+.text {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.title-picture {
+  background-color: #f5f4fa;
   color: #212121;
 }
 
 .title-picture:hover,
 .title-picture:focus {
-  color: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /*work*/
 
 .work-title {
   color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  text-align: center;
+}
+
+.team-list,
+.team-title {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.team-list,
+.team-text {
+  list-style: none;
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .media-title:hover,
@@ -45,7 +89,7 @@
 
 /*постійні*/
 
-.link:hover,
-.link:focus {
+.social-networks:hover,
+.social-networks:focus {
   color: #2196f3;
 }
