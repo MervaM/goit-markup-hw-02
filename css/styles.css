@@ -130,8 +130,11 @@ a {
 }
 
 .feature-text {
+  font-family: sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .title-picture {
@@ -207,6 +210,10 @@ a {
 .filter-button {
   font-family: Roboto, sans-serif;
   font-style: normal;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .social-networks:hover,
@@ -215,19 +222,12 @@ a {
 }
 
 .filter-button {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.button {
   background-color: #f5f4fa;
   color: var(--title-text-color);
 }
 
-.button:hover,
-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--accent-color);
   color: var(--footer-color);
 }
